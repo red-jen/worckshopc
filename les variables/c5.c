@@ -10,7 +10,7 @@ int main(){
     if(eau < 0){
         printf("l'eau est solid");
          }
-        else if(eau < 100 && eau >0){
+        else if(eau <= 100 && eau >=0){
             printf("l'eau est liquide");
             }
         
